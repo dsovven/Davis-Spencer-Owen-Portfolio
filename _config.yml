@@ -1,0 +1,26 @@
+title: "Your Name"
+description: "Manufacturing Engineer • NPI • DFM/DFA • Process Development"
+url: "https://username.github.io"   # change to your username
+baseurl: ""                         # keep blank for a user site
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      share: false
