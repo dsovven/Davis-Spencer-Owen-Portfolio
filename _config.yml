@@ -1,8 +1,8 @@
 ﻿title: "Manufacturing Engineer Portfolio"
 description: "A modern GitHub Pages portfolio template for manufacturing engineers."
-url: "https://username.github.io"
-baseurl: "" # Set to "/repository-name" for project sites
-repository: "username/repository-name"
+url: "https://dsovven.github.io"
+baseurl: "/Davis-Spencer-Owen-Portfolio" # Set to "" for username.github.io repos
+repository: "dsovven/Davis-Spencer-Owen-Portfolio"
 locale: "en-US"
 timezone: "America/Chicago"
 
@@ -41,4 +41,5 @@ defaults:
 
 exclude:
   - README.md
+
 
