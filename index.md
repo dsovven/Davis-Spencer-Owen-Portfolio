@@ -54,12 +54,11 @@ classes: wide
 {% if featured_projects and featured_projects.size > 0 %}
 <div class="project-grid">
 {% for project in featured_projects limit: 4 %}
+  {% assign project_image = project.header.teaser | default: '/assets/img/project-submarine.svg' %}
   <article class="project-card project-card--featured">
-    {% if project.header.teaser %}
-      <a class="project-thumb-link" href="{{ project.url | relative_url }}">
-        <img class="project-thumb" src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }} teaser image">
-      </a>
-    {% endif %}
+    <a class="project-thumb-link" href="{{ project.url | relative_url }}">
+      <img class="project-thumb" src="{{ project_image | relative_url }}" alt="{{ project.title }} teaser image" loading="lazy">
+    </a>
     <p class="project-kicker">{{ project.role }} | {{ project.timeline }}</p>
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
@@ -71,12 +70,11 @@ classes: wide
 {% assign fallback_projects = site.projects | sort: "date" | reverse %}
 <div class="project-grid">
 {% for project in fallback_projects limit: 4 %}
+  {% assign project_image = project.header.teaser | default: '/assets/img/project-submarine.svg' %}
   <article class="project-card project-card--featured">
-    {% if project.header.teaser %}
-      <a class="project-thumb-link" href="{{ project.url | relative_url }}">
-        <img class="project-thumb" src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }} teaser image">
-      </a>
-    {% endif %}
+    <a class="project-thumb-link" href="{{ project.url | relative_url }}">
+      <img class="project-thumb" src="{{ project_image | relative_url }}" alt="{{ project.title }} teaser image" loading="lazy">
+    </a>
     <p class="project-kicker">{{ project.role }} | {{ project.timeline }}</p>
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
