@@ -1,43 +1,41 @@
-﻿---
-title: "CNC Cell Throughput Improvement for Bottleneck Operation"
-excerpt: "Increased daily output by addressing setup loss, tool-change strategy, and operator handoff friction."
-date: 2025-08-18
+---
+title: "1,000+ Component Assembly Process Strategy"
+excerpt: "Built and continuously improved process plans and detailed work instructions for large, complex assembly content."
+date: 2025-09-19
 featured: true
 order: 2
-role: "Manufacturing Engineer"
-timeline: "10 weeks"
+role: "Manufacturing Project Engineer"
+timeline: "Ongoing"
 header:
-  teaser: /assets/img/project-throughput.svg
+  teaser: /assets/img/project-process-plan.svg
 tags:
-  - Lean Manufacturing
-  - OEE
+  - Process Development
   - Standard Work
+  - Continuous Improvement
 ---
 
 ## Challenge
 
-A 3-machine cell was missing weekly delivery targets. The bottleneck operation had long setup events, uneven tool life, and inconsistent shift handoffs.
+High component count and variable build conditions increased risk of defects, missed steps, and inconsistent assembly outcomes.
 
 ## Constraints
 
-- No additional headcount approved.
-- Customer schedule required stable output during implementation.
-- Tooling catalog could only be changed through approved vendors.
+- Large BOM and frequent engineering updates.
+- High traceability expectations.
+- Need for practical instructions usable by production teams.
 
 ## What Was Implemented
 
-- Built a setup reduction plan with pre-staged kits and standardized offsets.
-- Switched to a controlled tool-life policy tied to spindle time and part count.
-- Added visual handoff boards for in-process work and shift exceptions.
+- Developed production strategies and build sequences for 1,000+ component assemblies.
+- Authored and maintained detailed work instructions with revision discipline.
+- Integrated mistake-proofing and quality checkpoints to reduce nonconformance risk.
 
-## Results
+## Outcomes
 
-- Daily output increased from 142 to 176 units.
-- Average setup time per changeover dropped from 48 to 29 minutes.
-- OEE improved from 63% to 74% within one quarter.
+- Improved process clarity and repeatability across teams.
+- Enabled faster onboarding and smoother execution of complex builds.
+- Reduced avoidable defects through proactive process controls.
 
-## Customize This Page
+## Notes
 
-1. Replace this scenario with your actual line or cell context.
-2. Add a chart screenshot from your own OEE or MES dashboard.
-3. Document what did not work on the first pass and how you adjusted.
+Add your own approved before/after quality and throughput metrics in this section.

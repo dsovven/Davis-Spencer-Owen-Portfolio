@@ -1,43 +1,41 @@
-﻿---
-title: "Fixture Redesign for Thin-Wall Machining Stability"
-excerpt: "Reduced chatter-driven scrap by redesigning support geometry, clamping sequence, and setup controls."
-date: 2025-10-01
+---
+title: "Submarine Assembly Program: First-Time Build Execution"
+excerpt: "Led cross-functional technical execution from proposal through validation for critical submarine assembly hardware."
+date: 2025-11-02
 featured: true
 order: 1
-role: "Manufacturing Engineer"
-timeline: "8 weeks"
+role: "Manufacturing Project Engineer II"
+timeline: "Multi-year program"
 header:
-  teaser: /assets/img/project-fixture.svg
+  teaser: /assets/img/project-submarine.svg
 tags:
-  - Fixture Design
-  - Process Capability
-  - CNC
+  - Program Leadership
+  - High-Reliability Manufacturing
+  - NDT and Validation
 ---
 
 ## Challenge
 
-A thin-wall aluminum part was failing final inspection due to chatter marks and dimensional drift during a finishing operation. Scrap and rework were increasing during peak demand.
+Program scope required first-time build success for critical submarine assemblies under strict customer and compliance requirements.
 
 ## Constraints
 
-- Existing machine platform had to stay in place.
-- Tooling budget was capped for the quarter.
-- Changes needed validation without stopping daily shipments.
+- Exacting NAVSEA and Electric Boat requirements.
+- Complex supply chain and long-lead fabrication paths.
+- Tight coupling between design maturity and production readiness.
 
-## What Was Implemented
+## What Was Executed
 
-- Added compliant support points to reduce wall deflection during clamp-up.
-- Reordered clamping sequence and documented torque values in setup instructions.
-- Introduced a first-piece verification checklist with go/no-go criteria.
+- Led cross-functional coordination across proposal, design, procurement, machining, assembly, NDT, and functional validation.
+- Defined technical manufacturing approach to balance schedule, quality, and process capability.
+- Drove issue resolution with root-cause and corrective action methods.
 
-## Results
+## Outcomes
 
-- Scrap rate dropped from 11.8% to 3.9%.
-- Rework hours reduced by 37%.
-- Cpk on the key bore dimension improved from 0.88 to 1.42.
+- Delivered first-time builds across a multi-year execution window.
+- Supported transition from Engineer I ownership on a $3M scope to Engineer II ownership on an $18M scope.
+- Helped sustain compliant production flow for mission-critical hardware.
 
-## Customize This Page
+## Notes
 
-1. Replace every metric with your real baseline and post-change data.
-2. Add before/after photos in `assets/img/`.
-3. Include the validation method you used (GR&R, capability study, FAI, etc.).
+Program details are generalized for confidentiality. Replace with approved metrics where permitted.

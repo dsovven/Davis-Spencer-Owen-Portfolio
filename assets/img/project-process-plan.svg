@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Process plan project teaser</title>
+  <desc id="desc">Abstract process planning and instruction workflow graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a5e86" />
+      <stop offset="100%" stop-color="#50657e" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <rect x="100" y="90" width="760" height="360" rx="24" fill="#ffffff" opacity="0.1" />
+  <rect x="170" y="140" width="230" height="280" rx="14" fill="#f1f6fb" opacity="0.95" />
+  <rect x="220" y="190" width="130" height="12" rx="6" fill="#84a6c2" />
+  <rect x="220" y="228" width="130" height="12" rx="6" fill="#84a6c2" />
+  <rect x="220" y="266" width="130" height="12" rx="6" fill="#84a6c2" />
+  <rect x="220" y="304" width="95" height="12" rx="6" fill="#84a6c2" />
+  <rect x="450" y="150" width="300" height="70" rx="12" fill="#cedfed" />
+  <rect x="450" y="245" width="300" height="70" rx="12" fill="#b7cfdf" />
+  <rect x="450" y="340" width="300" height="70" rx="12" fill="#9ec0d5" />
+  <path d="M400 185 h38" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+  <path d="M400 280 h38" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+  <path d="M400 375 h38" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+  <text x="150" y="455" fill="#f5fbff" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">1,000+ Component Process Planning</text>
+</svg>

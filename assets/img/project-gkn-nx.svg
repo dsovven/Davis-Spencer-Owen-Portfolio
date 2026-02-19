@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Siemens NX fabrication support teaser</title>
+  <desc id="desc">Abstract CAD and fabrication documentation graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#29577e" />
+      <stop offset="100%" stop-color="#4f7869" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <rect x="95" y="88" width="770" height="364" rx="24" fill="#ffffff" opacity="0.11" />
+  <rect x="150" y="120" width="340" height="300" rx="14" fill="#e8f2fa" opacity="0.95" />
+  <path d="M210 290 L300 190 L420 250 L340 340 Z" fill="none" stroke="#2f5f83" stroke-width="8" />
+  <circle cx="300" cy="190" r="10" fill="#2f5f83" />
+  <circle cx="420" cy="250" r="10" fill="#2f5f83" />
+  <circle cx="340" cy="340" r="10" fill="#2f5f83" />
+  <rect x="530" y="140" width="270" height="54" rx="11" fill="#c8deea" />
+  <rect x="530" y="214" width="220" height="42" rx="10" fill="#b5d2e2" />
+  <rect x="530" y="272" width="250" height="42" rx="10" fill="#a2c6d9" />
+  <rect x="530" y="330" width="190" height="42" rx="10" fill="#8dbacf" />
+  <text x="150" y="455" fill="#f5fbff" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">NX CAD and Fabrication Documentation</text>
+</svg>

@@ -1,10 +1,10 @@
-﻿title: "Manufacturing Engineer Portfolio"
-description: "A modern GitHub Pages portfolio template for manufacturing engineers."
+title: "Davis Spencer Owen | Manufacturing Project Engineer"
+description: "Portfolio of Davis Spencer Owen, Manufacturing Project Engineer focused on high-reliability production, DFM/DFA, and process development."
 url: "https://dsovven.github.io"
 baseurl: "/Davis-Spencer-Owen-Portfolio" # Set to "" for username.github.io repos
 repository: "dsovven/Davis-Spencer-Owen-Portfolio"
 locale: "en-US"
-timezone: "America/Chicago"
+timezone: "America/Los_Angeles"
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "air"

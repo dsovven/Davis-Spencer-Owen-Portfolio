@@ -1,43 +1,40 @@
-﻿---
-title: "Launch Readiness Plan for New Product Introduction"
-excerpt: "Built process validation and control plans for a new assembly line before volume ramp."
-date: 2025-06-05
+---
+title: "Technical Proposal Development for New Program Awards"
+excerpt: "Authored and presented competitive manufacturing proposals that helped secure new contracts."
+date: 2025-07-11
 featured: true
 order: 3
-role: "NPI Manufacturing Engineer"
-timeline: "12 weeks"
+role: "Manufacturing Project Engineer"
+timeline: "Bid-cycle based"
 header:
-  teaser: /assets/img/project-launch.svg
+  teaser: /assets/img/project-proposal.svg
 tags:
-  - NPI
-  - PFMEA
-  - Validation
+  - Proposal Development
+  - Cost and Risk Strategy
+  - Customer Communication
 ---
 
 ## Challenge
 
-A new electromechanical assembly was scheduled for launch with aggressive timing. Early pilot runs showed variable torque performance and inconsistent traceability capture.
+New business opportunities required technically credible proposals with clear manufacturing strategy, risk posture, and execution planning.
 
 ## Constraints
 
-- Pilot line had limited process history.
-- Test fixtures were still evolving.
-- Launch date was locked by customer commitments.
+- Limited proposal windows.
+- High technical scrutiny from customers.
+- Need for realistic planning across supply chain and production resources.
 
 ## What Was Implemented
 
-- Facilitated PFMEA sessions and converted high-risk items into control plan checks.
-- Defined process qualification plan with IQ/OQ/PQ gates.
-- Partnered with quality to finalize reaction plans and defect escalation workflow.
+- Built proposal content linking design intent to manufacturable process flow.
+- Presented risk-informed execution plans and mitigation strategies.
+- Coordinated with internal stakeholders to align scope, cost, and delivery assumptions.
 
-## Results
+## Outcomes
 
-- Completed launch on schedule with no customer line-stops in first 90 days.
-- First-pass yield at SOP reached 95.4% and improved to 97.8% by month three.
-- Containment incidents dropped by 60% after closed-loop corrective actions.
+- Contributed to successful competitive proposals that resulted in new contracts.
+- Improved proposal quality and consistency for future pursuits.
 
-## Customize This Page
+## Notes
 
-1. Replace process and quality terms with those used in your organization.
-2. Add your own PPAP or validation deliverables.
-3. Attach lessons learned for future launch programs.
+Replace generalized statements with approved proposal win-rate and value data where allowed.

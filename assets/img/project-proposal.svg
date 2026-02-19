@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Proposal development teaser</title>
+  <desc id="desc">Abstract contract proposal concept with charts and checklist.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18496f" />
+      <stop offset="100%" stop-color="#8a5a3b" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <rect x="110" y="90" width="740" height="360" rx="24" fill="#ffffff" opacity="0.1" />
+  <rect x="170" y="130" width="300" height="290" rx="14" fill="#f6f2ef" opacity="0.96" />
+  <rect x="230" y="182" width="180" height="12" rx="6" fill="#ab7a58" />
+  <rect x="230" y="222" width="180" height="12" rx="6" fill="#ab7a58" />
+  <rect x="230" y="262" width="150" height="12" rx="6" fill="#ab7a58" />
+  <path d="M215 180 l7 9 l16 -19" stroke="#3a5f73" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M215 220 l7 9 l16 -19" stroke="#3a5f73" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M215 260 l7 9 l16 -19" stroke="#3a5f73" stroke-width="6" fill="none" stroke-linecap="round" />
+  <rect x="520" y="150" width="250" height="250" rx="14" fill="#d4e2ee" opacity="0.92" />
+  <rect x="560" y="320" width="30" height="60" rx="7" fill="#5f7f97" />
+  <rect x="610" y="280" width="30" height="100" rx="7" fill="#4a6f89" />
+  <rect x="660" y="240" width="30" height="140" rx="7" fill="#385f7b" />
+  <text x="150" y="455" fill="#f5fbff" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">Technical Proposal Development</text>
+</svg>

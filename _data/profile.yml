@@ -1,29 +1,96 @@
-﻿name: "Your Name"
-headline: "Manufacturing Engineer | NPI | DFM/DFA | Process Development"
-location: "City, State, USA"
-email: "you@example.com"
-linkedin: "https://www.linkedin.com/in/your-profile"
-github: "https://github.com/your-username"
+name: "Davis Spencer Owen, E.I.T."
+headline: "Manufacturing Project Engineer II | NPI | DFM/DFA | Process Development"
+location: "Oceanside, CA"
+email: "d.spencer.owen@gmail.com"
+phone: "949-413-4510"
+linkedin: "https://www.linkedin.com/in/davis-spencer-owen"
+github: "https://github.com/dsovven"
 resume_file: "/assets/resume.pdf"
+clearance: "Active U.S. SECRET clearance"
+current_role: "Manufacturing Project Engineer II, General Atomics Electromagnetic Systems"
 
 intro: >
-  Replace this intro with 3 to 5 sentences on the products you support,
-  process ownership, and the type of manufacturing environments where you deliver impact.
+  Solutions-driven Manufacturing Project Engineer with a track record leading first-time builds
+  for critical submarine assemblies. I combine hands-on manufacturing execution with project
+  technical leadership across proposal, design, procurement, machining, assembly, NDT, and
+  validation. My focus is building robust processes that improve throughput, reduce
+  nonconformances, and meet strict customer requirements.
 
 summary: >
-  Manufacturing engineer with experience scaling products from prototype to production.
-  Strong track record in fixture design, PFMEA-driven process controls, capability improvement,
-  and cross-functional launch execution.
+  Distinctive blend of technical capability, cross-functional leadership, and practical factory
+  experience. At General Atomics, I was promoted from Engineer I to Engineer II while scaling
+  responsibility from a $3M program to an $18M program. I develop process strategies, detailed
+  work instructions, and fixture solutions that support high-reliability manufacturing under
+  exacting standards.
 
 focus_areas:
-  - "NPI and production launch planning"
-  - "DFM/DFA collaboration with product design teams"
-  - "CNC and assembly process optimization"
-  - "Fixture and tooling design for repeatability"
-  - "SPC, Cp/Cpk, and process validation"
-  - "Root-cause analysis and corrective actions"
+  - "Technical project management in high-reliability manufacturing"
+  - "Design for Manufacturing and Assembly (DFM/DFA)"
+  - "Precision machining: EDM, VTL, and 5-axis workflows"
+  - "Root cause and corrective action"
+  - "Process development, work instructions, and build strategy"
+  - "Supply chain coordination and bill of materials development"
+  - "Tooling and fixture design for tolerance control"
+  - "Nondestructive testing integration and validation readiness"
 
 impact_metrics:
-  - "Reduced first-pass yield losses by 22% in a precision machining line."
-  - "Cut cycle time by 16% through workstation balancing and fixture updates."
-  - "Improved Cpk from 0.92 to 1.45 on a critical bore operation."
+  - "Promoted from Engineer I (led $3M scope) to Engineer II (led $18M scope)."
+  - "Developed and continuously improved process plans for 1,000+ component assemblies."
+  - "Delivered multi-year first-time builds from proposal through functional validation."
+  - "Won new business by authoring and presenting competitive technical proposals."
+
+experience:
+  - role: "Manufacturing Project Engineer II"
+    company: "General Atomics Electromagnetic Systems"
+    location: "Rancho Bernardo, CA"
+    dates: "May 2023 - Present"
+    highlights:
+      - "Promoted from Engineer I leading a $3M project to Engineer II leading an $18M project."
+      - "Project Technical Lead for cross-functional teams producing critical submarine assemblies."
+      - "Delivered first-time builds through proposal, design, procurement, machining, assembly, NDT, and validation."
+      - "Implemented mistake-proofing and root-cause corrective actions to prevent nonconformances."
+      - "Authored process plans and detailed work instructions for 1,000+ component assemblies."
+      - "Designed purpose-built fixtures to maintain critical machining and assembly tolerances."
+      - "Presented competitive proposals that resulted in new contracts."
+  - role: "Manufacturing Engineering Intern"
+    company: "GKN Aerospace"
+    location: "El Cajon, CA"
+    dates: "January 2023 - May 2023"
+    highlights:
+      - "Produced CAD models, work instructions, and drawings using Siemens NX for advanced metal fabrication support."
+  - role: "Lab Research Assistant"
+    company: "NanoFAB.SDSU"
+    location: "San Diego, CA"
+    dates: "June 2022 - June 2023"
+    highlights:
+      - "Led research, design, and procurement of a PCB vagus-nerve sensing/stimulation device for Type II Diabetes."
+
+education:
+  - school: "San Diego State University"
+    degree: "B.S. Mechanical Engineering"
+    graduation: "May 2023"
+    honors: "Cum Laude"
+
+certifications:
+  - "Engineer in Training (E.I.T.)"
+  - "Lean Six Sigma Yellow Belt"
+  - "GD&T per ASME Y14.5"
+
+tools:
+  - "Siemens NX"
+  - "SolidWorks"
+  - "Ansys"
+  - "SAP"
+  - "mPEO"
+  - "MS Project"
+  - "Excel"
+  - "Eagle/Fusion PCB EDA"
+
+programming:
+  - "Python"
+  - "Java"
+  - "C"
+  - "Assembly"
+
+organizations:
+  - "Tau Beta Pi, Engineering Honors Society"

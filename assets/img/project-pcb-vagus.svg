@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">PCB research device teaser</title>
+  <desc id="desc">Abstract circuit board and biomedical research project graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f5e5d" />
+      <stop offset="100%" stop-color="#2d5d86" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)" />
+  <rect x="100" y="90" width="760" height="360" rx="24" fill="#ffffff" opacity="0.11" />
+  <rect x="170" y="130" width="620" height="280" rx="18" fill="#d9efe9" opacity="0.92" />
+  <rect x="220" y="180" width="140" height="90" rx="12" fill="#76b39f" />
+  <rect x="390" y="180" width="140" height="90" rx="12" fill="#6aa995" />
+  <rect x="560" y="180" width="140" height="90" rx="12" fill="#5d9f8a" />
+  <circle cx="260" cy="320" r="16" fill="#2a5e86" />
+  <circle cx="430" cy="320" r="16" fill="#2a5e86" />
+  <circle cx="600" cy="320" r="16" fill="#2a5e86" />
+  <path d="M276 320 H414 M446 320 H584" stroke="#2a5e86" stroke-width="8" stroke-linecap="round" />
+  <text x="150" y="455" fill="#f5fbff" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">PCB Device Research and Procurement</text>
+</svg>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "About"
 layout: single
 permalink: /about/
@@ -9,20 +9,44 @@ classes: wide
 
 {{ site.data.profile.summary }}
 
-## Certifications and Tools
+## Professional Experience
 
-- Replace this section with your certifications (Six Sigma, GD&T, etc.).
-- Add core software (SolidWorks, NX, Minitab, Power BI, ERP/MES tools).
-- Add manufacturing processes where you have direct ownership.
+{% for job in site.data.profile.experience %}
+### {{ job.role }}
+**{{ job.company }} | {{ job.location }} | {{ job.dates }}**
 
-## Career Snapshot
+{% for point in job.highlights %}
+- {{ point }}
+{% endfor %}
 
-- **Current Focus:** High-mix manufacturing and launch readiness.
-- **Past Focus:** Process optimization, fixture design, and quality systems.
-- **Leadership:** Cross-functional collaboration with design, quality, and operations.
+{% endfor %}
 
-## What To Customize
+## Education
 
-1. Update `_data/profile.yml` with your own bio and links.
-2. Replace the project pages in `_projects/`.
-3. Add real images to `assets/img/` and point each project `header.teaser` to them.
+{% for edu in site.data.profile.education %}
+- **{{ edu.school }}** - {{ edu.degree }} ({{ edu.graduation }}){% if edu.honors %}, {{ edu.honors }}{% endif %}
+{% endfor %}
+
+## Certifications
+
+{% for cert in site.data.profile.certifications %}
+- {{ cert }}
+{% endfor %}
+
+## Software and Systems
+
+{% for tool in site.data.profile.tools %}
+- {{ tool }}
+{% endfor %}
+
+## Programming
+
+{% for language in site.data.profile.programming %}
+- {{ language }}
+{% endfor %}
+
+## Organizations
+
+{% for org in site.data.profile.organizations %}
+- {{ org }}
+{% endfor %}
