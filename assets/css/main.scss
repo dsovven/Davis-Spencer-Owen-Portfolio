@@ -29,7 +29,31 @@ body {
     radial-gradient(1200px 540px at -10% -10%, rgba(42, 94, 134, 0.14), transparent 52%),
     radial-gradient(900px 520px at 110% 0%, rgba(15, 94, 93, 0.14), transparent 48%),
     radial-gradient(800px 500px at 50% 110%, rgba(138, 90, 59, 0.08), transparent 46%),
+    linear-gradient(rgba(80, 101, 126, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 101, 126, 0.055) 1px, transparent 1px),
+    repeating-linear-gradient(135deg, rgba(15, 94, 93, 0.03) 0 16px, rgba(15, 94, 93, 0) 16px 40px),
     var(--surface-1);
+  background-size:
+    auto,
+    auto,
+    auto,
+    72px 72px,
+    72px 72px,
+    220px 220px;
+  background-position:
+    center top,
+    center top,
+    center bottom,
+    0 0,
+    0 0,
+    0 0;
+  background-attachment:
+    scroll,
+    scroll,
+    scroll,
+    fixed,
+    fixed,
+    fixed;
 }
 
 .page__title,
@@ -276,6 +300,23 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+  body {
+    background-size:
+      auto,
+      auto,
+      auto,
+      52px 52px,
+      52px 52px,
+      180px 180px;
+    background-attachment:
+      scroll,
+      scroll,
+      scroll,
+      scroll,
+      scroll,
+      scroll;
+  }
+
   .hero-card {
     padding: 1.4rem;
   }
