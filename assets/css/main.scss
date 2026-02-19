@@ -26,34 +26,38 @@ body {
   font-family: "Source Sans 3", "Segoe UI", sans-serif;
   color: var(--ink-900);
   background:
-    radial-gradient(1200px 540px at -10% -10%, rgba(42, 94, 134, 0.14), transparent 52%),
-    radial-gradient(900px 520px at 110% 0%, rgba(15, 94, 93, 0.14), transparent 48%),
-    radial-gradient(800px 500px at 50% 110%, rgba(138, 90, 59, 0.08), transparent 46%),
-    linear-gradient(rgba(80, 101, 126, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(80, 101, 126, 0.055) 1px, transparent 1px),
-    repeating-linear-gradient(135deg, rgba(15, 94, 93, 0.03) 0 16px, rgba(15, 94, 93, 0) 16px 40px),
+    linear-gradient(rgba(80, 101, 126, 0.085) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 101, 126, 0.085) 1px, transparent 1px),
+    repeating-linear-gradient(135deg, rgba(15, 94, 93, 0.045) 0 16px, rgba(15, 94, 93, 0) 16px 40px),
+    radial-gradient(circle at 1px 1px, rgba(42, 94, 134, 0.08) 1px, transparent 0),
+    radial-gradient(1200px 540px at -10% -10%, rgba(42, 94, 134, 0.12), transparent 52%),
+    radial-gradient(900px 520px at 110% 0%, rgba(15, 94, 93, 0.12), transparent 48%),
+    radial-gradient(800px 500px at 50% 110%, rgba(138, 90, 59, 0.06), transparent 46%),
     var(--surface-1);
   background-size:
+    56px 56px,
+    56px 56px,
+    220px 220px,
+    24px 24px,
     auto,
     auto,
-    auto,
-    72px 72px,
-    72px 72px,
-    220px 220px;
+    auto;
   background-position:
-    center top,
-    center top,
-    center bottom,
     0 0,
     0 0,
-    0 0;
+    0 0,
+    0 0,
+    center top,
+    center top,
+    center bottom;
   background-attachment:
-    scroll,
-    scroll,
-    scroll,
     fixed,
     fixed,
-    fixed;
+    fixed,
+    fixed,
+    scroll,
+    scroll,
+    scroll;
 }
 
 .page__title,
@@ -302,13 +306,15 @@ a:focus {
 @media (max-width: 768px) {
   body {
     background-size:
+      44px 44px,
+      44px 44px,
+      180px 180px,
+      20px 20px,
       auto,
       auto,
-      auto,
-      52px 52px,
-      52px 52px,
-      180px 180px;
+      auto;
     background-attachment:
+      scroll,
       scroll,
       scroll,
       scroll,
