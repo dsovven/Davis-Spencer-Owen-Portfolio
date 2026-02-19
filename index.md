@@ -50,15 +50,40 @@ classes: wide
 
 ## Featured Projects
 
+{% assign featured_projects = site.projects | where_exp: "project", "project.featured == true" | sort: "order" %}
+{% if featured_projects and featured_projects.size > 0 %}
 <div class="project-grid">
-{% assign featured_projects = site.projects | where: "featured", true | sort: "order" %}
 {% for project in featured_projects limit: 4 %}
-  <article class="project-card">
+  <article class="project-card project-card--featured">
+    {% if project.header.teaser %}
+      <a class="project-thumb-link" href="{{ project.url | relative_url }}">
+        <img class="project-thumb" src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }} teaser image">
+      </a>
+    {% endif %}
     <p class="project-kicker">{{ project.role }} | {{ project.timeline }}</p>
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
     <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
+    <p><a class="btn btn--small btn--primary" href="{{ project.url | relative_url }}">View Project</a></p>
   </article>
 {% endfor %}
 </div>
+{% else %}
+{% assign fallback_projects = site.projects | sort: "date" | reverse %}
+<div class="project-grid">
+{% for project in fallback_projects limit: 4 %}
+  <article class="project-card project-card--featured">
+    {% if project.header.teaser %}
+      <a class="project-thumb-link" href="{{ project.url | relative_url }}">
+        <img class="project-thumb" src="{{ project.header.teaser | relative_url }}" alt="{{ project.title }} teaser image">
+      </a>
+    {% endif %}
+    <p class="project-kicker">{{ project.role }} | {{ project.timeline }}</p>
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
+    <p><a class="btn btn--small btn--primary" href="{{ project.url | relative_url }}">View Project</a></p>
+  </article>
+{% endfor %}
+</div>
+{% endif %}
 
 [Browse all projects]({{ '/projects/' | relative_url }})

@@ -195,6 +195,24 @@ a:focus {
   box-shadow: 0 14px 26px rgba(18, 35, 58, 0.12);
 }
 
+
+.project-card--featured {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-thumb-link {
+  display: block;
+  margin: -1rem -1.1rem 0.75rem;
+}
+
+.project-thumb {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+  border-bottom: 1px solid var(--line-1);
+}
 .project-card h3 {
   margin: 0.3rem 0 0.4rem;
   font-size: 1.05rem;
