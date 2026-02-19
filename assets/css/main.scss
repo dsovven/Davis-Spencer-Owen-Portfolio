@@ -22,14 +22,16 @@ html {
   font-size: 18px;
 }
 
+.initial-content,
 body {
   font-family: "Source Sans 3", "Segoe UI", sans-serif;
   color: var(--ink-900);
+  background-color: var(--surface-1);
   background:
-    linear-gradient(rgba(80, 101, 126, 0.085) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(80, 101, 126, 0.085) 1px, transparent 1px),
-    repeating-linear-gradient(135deg, rgba(15, 94, 93, 0.045) 0 16px, rgba(15, 94, 93, 0) 16px 40px),
-    radial-gradient(circle at 1px 1px, rgba(42, 94, 134, 0.08) 1px, transparent 0),
+    linear-gradient(rgba(80, 101, 126, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 101, 126, 0.12) 1px, transparent 1px),
+    repeating-linear-gradient(135deg, rgba(15, 94, 93, 0.06) 0 16px, rgba(15, 94, 93, 0) 16px 40px),
+    radial-gradient(circle at 1px 1px, rgba(42, 94, 134, 0.11) 1px, transparent 0),
     radial-gradient(1200px 540px at -10% -10%, rgba(42, 94, 134, 0.12), transparent 52%),
     radial-gradient(900px 520px at 110% 0%, rgba(15, 94, 93, 0.12), transparent 48%),
     radial-gradient(800px 500px at 50% 110%, rgba(138, 90, 59, 0.06), transparent 46%),
@@ -58,6 +60,12 @@ body {
     scroll,
     scroll,
     scroll;
+}
+
+.search-content,
+.page,
+.page__inner-wrap {
+  background: transparent;
 }
 
 .page__title,
@@ -304,6 +312,7 @@ a:focus {
 }
 
 @media (max-width: 768px) {
+  .initial-content,
   body {
     background-size:
       44px 44px,
