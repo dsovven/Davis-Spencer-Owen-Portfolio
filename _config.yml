@@ -1,26 +1,44 @@
-title: "Your Name"
-description: "Manufacturing Engineer • NPI • DFM/DFA • Process Development"
-url: "https://username.github.io"   # change to your username
-baseurl: ""                         # keep blank for a user site
+﻿title: "Manufacturing Engineer Portfolio"
+description: "A modern GitHub Pages portfolio template for manufacturing engineers."
+url: "https://username.github.io"
+baseurl: "" # Set to "/repository-name" for project sites
+repository: "username/repository-name"
+locale: "en-US"
+timezone: "America/Chicago"
 
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "air"
 
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
 
 collections:
-  case_studies:
+  projects:
     output: true
-    permalink: /case-studies/:path/
+    permalink: /projects/:path/
 
 defaults:
   - scope:
       path: ""
-      type: case_studies
+      type: projects
     values:
       layout: single
       classes: wide
       author_profile: false
       read_time: false
       share: false
+      related: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      share: false
+
+exclude:
+  - README.md
+

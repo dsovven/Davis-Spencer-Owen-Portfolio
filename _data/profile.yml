@@ -1,0 +1,29 @@
+﻿name: "Your Name"
+headline: "Manufacturing Engineer | NPI | DFM/DFA | Process Development"
+location: "City, State, USA"
+email: "you@example.com"
+linkedin: "https://www.linkedin.com/in/your-profile"
+github: "https://github.com/your-username"
+resume_file: "/assets/resume.pdf"
+
+intro: >
+  Replace this intro with 3 to 5 sentences on the products you support,
+  process ownership, and the type of manufacturing environments where you deliver impact.
+
+summary: >
+  Manufacturing engineer with experience scaling products from prototype to production.
+  Strong track record in fixture design, PFMEA-driven process controls, capability improvement,
+  and cross-functional launch execution.
+
+focus_areas:
+  - "NPI and production launch planning"
+  - "DFM/DFA collaboration with product design teams"
+  - "CNC and assembly process optimization"
+  - "Fixture and tooling design for repeatability"
+  - "SPC, Cp/Cpk, and process validation"
+  - "Root-cause analysis and corrective actions"
+
+impact_metrics:
+  - "Reduced first-pass yield losses by 22% in a precision machining line."
+  - "Cut cycle time by 16% through workstation balancing and fixture updates."
+  - "Improved Cpk from 0.92 to 1.45 on a critical bore operation."

@@ -1,0 +1,149 @@
+﻿---
+---
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap");
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+$accent-strong: #0c5d5c;
+$panel: #ffffff;
+$border: #d7e2ea;
+$text-strong: #152031;
+$text-soft: #4b5f73;
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  color: $text-strong;
+  background:
+    radial-gradient(1200px 500px at -10% -10%, rgba(28, 111, 171, 0.15), transparent 50%),
+    radial-gradient(900px 500px at 110% 0%, rgba(12, 93, 92, 0.14), transparent 50%),
+    #f5f8fb;
+}
+
+.page__title,
+.archive__item-title,
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  letter-spacing: -0.01em;
+  color: $text-strong;
+}
+
+.masthead {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+.hero-card {
+  background: linear-gradient(130deg, rgba(12, 93, 92, 0.95), rgba(20, 122, 133, 0.92));
+  border-radius: 20px;
+  color: #f6fbff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 20px 45px rgba(9, 34, 56, 0.22);
+}
+
+.hero-card h1,
+.hero-card .lead,
+.hero-card p {
+  color: inherit;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 0.75rem;
+  opacity: 0.85;
+  margin-bottom: 0.6rem;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-top: 0.2rem;
+}
+
+.hero-actions {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.pill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 2rem;
+}
+
+.pill {
+  display: inline-block;
+  background: #e6f3f2;
+  color: #114847;
+  border: 1px solid #c8e7e5;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.metric-grid,
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 2rem;
+}
+
+.metric-card,
+.project-card {
+  background: $panel;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 8px 22px rgba(18, 35, 58, 0.08);
+}
+
+.project-card h3 {
+  margin: 0.3rem 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.project-kicker {
+  color: $text-soft;
+  font-weight: 600;
+  font-size: 0.84rem;
+  margin: 0;
+}
+
+.archive .grid__item .archive__item {
+  background: $panel;
+  border: 1px solid $border;
+  border-radius: 14px;
+  padding: 0.75rem;
+  box-shadow: 0 8px 20px rgba(18, 35, 58, 0.08);
+}
+
+.archive__item-teaser img {
+  border-radius: 10px;
+}
+
+.btn--primary {
+  background-color: $accent-strong;
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    padding: 1.4rem;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+}
