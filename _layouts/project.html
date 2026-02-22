@@ -26,4 +26,20 @@ layout: default
       {{ content }}
     </div>
   </article>
+
+  {% assign other_projects = site.projects | where_exp: "p", "p.url != page.url" | sort: "order" %}
+  {% if other_projects.size > 0 %}
+  <nav class="related-projects">
+    <h2>More Projects</h2>
+    <div class="related-grid">
+      {% for project in other_projects limit: 3 %}
+      <a class="related-card" href="{{ project.url | relative_url }}">
+        <span class="related-role">{{ project.role }}</span>
+        <strong>{{ project.title }}</strong>
+        <span class="card-arrow">&rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+  </nav>
+  {% endif %}
 </div>

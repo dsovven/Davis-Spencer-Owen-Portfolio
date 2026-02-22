@@ -34,7 +34,3 @@ New business opportunities required technically credible proposals with clear ma
 
 - Contributed to successful competitive proposals that resulted in new contracts.
 - Improved proposal quality and consistency for future pursuits.
-
-## Notes
-
-Replace generalized statements with approved proposal win-rate and value data where allowed.

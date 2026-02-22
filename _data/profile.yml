@@ -94,3 +94,49 @@ programming:
 
 organizations:
   - "Tau Beta Pi, Engineering Honors Society"
+
+skills:
+  technical:
+    label: "Technical Skills"
+    items:
+      - "DFM/DFA"
+      - "GD&T (ASME Y14.5)"
+      - "Process Development"
+      - "Root Cause Analysis"
+      - "Fixture & Tooling Design"
+      - "NDT Integration"
+      - "Precision Machining (EDM, VTL, 5-Axis)"
+      - "Bill of Materials Development"
+  software:
+    label: "Software & Systems"
+    items:
+      - "Siemens NX"
+      - "SolidWorks"
+      - "Ansys"
+      - "SAP"
+      - "MS Project"
+      - "Eagle/Fusion PCB EDA"
+      - "Python"
+      - "Excel"
+  leadership:
+    label: "Leadership & Communication"
+    items:
+      - "Cross-Functional Team Leadership"
+      - "Technical Proposal Presentation"
+      - "Stakeholder Coordination"
+      - "Production Team Mentoring"
+      - "Customer-Facing Communication"
+      - "Risk & Schedule Management"
+
+open_to:
+  roles:
+    - "Senior Manufacturing Engineer"
+    - "NPI / New Product Introduction Lead"
+    - "Process Development Engineer"
+    - "Manufacturing Project Engineer"
+  industries:
+    - "Defense & Aerospace"
+    - "Space Systems"
+    - "Medical Devices"
+    - "Precision Manufacturing"
+  location: "San Diego area preferred; open to relocation for the right opportunity"
