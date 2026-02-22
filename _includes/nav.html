@@ -1,0 +1,17 @@
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="{{ '/' | relative_url }}">
+      <span class="brand-icon">DSO</span>
+      <span class="brand-text">Davis Spencer Owen</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      {% for link in site.data.navigation.main %}
+      <li><a href="{{ link.url | relative_url }}"{% if page.url == link.url %} class="active"{% endif %}>{{ link.title }}</a></li>
+      {% endfor %}
+      <li><a class="nav-cta" href="{{ site.data.profile.resume_file | relative_url }}">Resume</a></li>
+    </ul>
+  </div>
+</nav>

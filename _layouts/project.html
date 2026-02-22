@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="container">
+  <article class="project-detail">
+    <a class="back-link" href="{{ '/projects/' | relative_url }}">&larr; All Projects</a>
+    <header class="project-header">
+      <div class="project-meta">
+        {% for tag in page.tags limit: 3 %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <h1>{{ page.title }}</h1>
+      <p class="project-subtitle">{{ page.excerpt | strip_html }}</p>
+      <div class="project-info-bar">
+        {% if page.role %}<span><strong>Role:</strong> {{ page.role }}</span>{% endif %}
+        {% if page.timeline %}<span><strong>Timeline:</strong> {{ page.timeline }}</span>{% endif %}
+      </div>
+    </header>
+    {% if page.header.teaser %}
+    <div class="project-hero-img">
+      <img src="{{ page.header.teaser | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+    <div class="project-body">
+      {{ content }}
+    </div>
+  </article>
+</div>

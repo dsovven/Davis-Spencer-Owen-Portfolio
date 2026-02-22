@@ -1,10 +1,9 @@
-﻿---
+---
 title: "Case Studies"
-layout: single
+layout: page
 permalink: /case-studies/
-classes: wide
 ---
 
-This template now uses a unified **Projects** section.
+This section has been consolidated into Projects.
 
 [Go to Projects]({{ '/projects/' | relative_url }})

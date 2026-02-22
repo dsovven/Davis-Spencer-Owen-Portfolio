@@ -1,8 +1,7 @@
 ---
 title: "Contact"
-layout: single
+layout: page
 permalink: /contact/
-classes: wide
 ---
 
 Use this page for recruiter and collaborator outreach.

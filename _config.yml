@@ -1,17 +1,10 @@
-title: "Davis Spencer Owen | Manufacturing Project Engineer"
-description: "Portfolio of Davis Spencer Owen, Manufacturing Project Engineer focused on high-reliability production, DFM/DFA, and process development."
+title: "Davis Spencer Owen"
+description: "Manufacturing Project Engineer | NPI | DFM/DFA | Process Development"
 url: "https://dsovven.github.io"
-baseurl: "/Davis-Spencer-Owen-Portfolio" # Set to "" for username.github.io repos
+baseurl: "/Davis-Spencer-Owen-Portfolio"
 repository: "dsovven/Davis-Spencer-Owen-Portfolio"
 locale: "en-US"
 timezone: "America/Los_Angeles"
-
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
-minimal_mistakes_skin: "air"
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
 
 collections:
   projects:
@@ -23,23 +16,14 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
-      classes: wide
-      author_profile: false
-      read_time: false
-      share: false
-      related: false
+      layout: project
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      classes: wide
-      author_profile: false
-      read_time: false
-      share: false
+      layout: page
 
 exclude:
   - README.md
-
-
+  - Gemfile
+  - Gemfile.lock

@@ -1,8 +1,7 @@
 ---
 title: "About"
-layout: single
+layout: page
 permalink: /about/
-classes: wide
 ---
 
 ## Professional Summary
