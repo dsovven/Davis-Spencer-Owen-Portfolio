@@ -4,9 +4,15 @@ layout: page
 permalink: /about/
 ---
 
-## Professional Summary
-
-{{ site.data.profile.summary }}
+<div class="about-intro">
+  <div class="about-photo">
+    <img src="{{ '/assets/img/headshotcircle.jpg' | relative_url }}" alt="Davis Spencer Owen">
+  </div>
+  <div class="about-summary">
+    <h2>Professional Summary</h2>
+    <p>{{ site.data.profile.summary }}</p>
+  </div>
+</div>
 
 ## Skills & Competencies
 

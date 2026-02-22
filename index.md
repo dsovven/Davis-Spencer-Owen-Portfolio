@@ -4,15 +4,20 @@ permalink: /
 ---
 
 <section class="hero">
-  <div class="hero-inner">
-    <p class="hero-eyebrow">Manufacturing Engineering Portfolio</p>
-    <h1>{{ site.data.profile.name }}</h1>
-    <p class="hero-headline">{{ site.data.profile.headline }}</p>
-    <p class="hero-intro">{{ site.data.profile.intro }}</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
-      <a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About Me</a>
-      <a class="btn btn-secondary" href="{{ site.data.profile.resume_file | relative_url }}">Resume</a>
+  <div class="hero-inner hero-split">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Manufacturing Engineering Portfolio</p>
+      <h1>{{ site.data.profile.name }}</h1>
+      <p class="hero-headline">{{ site.data.profile.headline }}</p>
+      <p class="hero-intro">{{ site.data.profile.intro }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+        <a class="btn btn-secondary" href="{{ '/about/' | relative_url }}">About Me</a>
+        <a class="btn btn-secondary" href="{{ site.data.profile.resume_file | relative_url }}">Resume</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/headshotcircle.jpg' | relative_url }}" alt="Davis Spencer Owen headshot">
     </div>
   </div>
 </section>
