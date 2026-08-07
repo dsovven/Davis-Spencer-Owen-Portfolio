@@ -33,7 +33,3 @@ Fabrication teams required clear, production-ready digital definitions and instr
 
 - Supported faster handoff from design to fabrication.
 - Improved manufacturability communication in project documentation.
-
-## Notes
-
-Add representative screenshots or redacted drawing snippets where permitted.

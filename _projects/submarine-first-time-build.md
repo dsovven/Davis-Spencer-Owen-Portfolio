@@ -36,6 +36,4 @@ Program scope required first-time build success for critical submarine assemblie
 - Supported transition from Engineer I ownership on a $3M scope to Engineer II ownership on an $18M scope.
 - Helped sustain compliant production flow for mission-critical hardware.
 
-## Notes
-
-Program details are generalized for confidentiality. Replace with approved metrics where permitted.
+*Program details are generalized to protect confidentiality.*

@@ -35,7 +35,3 @@ High component count and variable build conditions increased risk of defects, mi
 - Improved process clarity and repeatability across teams.
 - Enabled faster onboarding and smoother execution of complex builds.
 - Reduced avoidable defects through proactive process controls.
-
-## Notes
-
-Add your own approved before/after quality and throughput metrics in this section.

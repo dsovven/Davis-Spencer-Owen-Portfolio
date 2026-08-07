@@ -33,7 +33,3 @@ Research objective required an integrated sensing/stimulation PCB platform for T
 
 - Delivered a working development path for device prototyping.
 - Established a structured design-procurement workflow for lab execution.
-
-## Notes
-
-Add approved experimental results or bench-test data if available.

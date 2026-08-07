@@ -9,6 +9,27 @@ timezone: "America/Los_Angeles"
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "air"
 
+author:
+  name: "Davis Spencer Owen"
+  bio: "Manufacturing Project Engineer II — NPI, DFM/DFA, process development."
+  location: "Oceanside, CA"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/davis-spencer-owen"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dsovven"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/davis-spencer-owen"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dsovven"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache

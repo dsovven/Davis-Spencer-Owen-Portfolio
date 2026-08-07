@@ -1,45 +1,29 @@
-﻿# Manufacturing Engineer Portfolio (GitHub Pages)
+# Davis Spencer Owen — Manufacturing Engineering Portfolio
 
-This repository is a modern, customizable portfolio template for a manufacturing engineer using Jekyll on GitHub Pages.
+Personal portfolio site for Davis Spencer Owen, Manufacturing Project Engineer II at General Atomics Electromagnetic Systems. Built with Jekyll (Minimal Mistakes theme) and deployed on GitHub Pages.
 
-## What is included
+**Live site:** https://dsovven.github.io/Davis-Spencer-Owen-Portfolio/
 
-- A modern Jekyll theme (`minimal-mistakes`) configured for GitHub Pages.
-- A clean homepage with highlights, impact metrics, and featured projects.
-- A dedicated `projects` collection with three example project case studies.
-- Reusable profile data in `_data/profile.yml` so you can update content in one file.
-- Navigation links in `_data/navigation.yml`.
-- Custom styling in `assets/css/main.scss`.
+## Structure
 
-## Quick customization
+- `_data/profile.yml` — single source of truth for profile info, experience, skills, and metrics
+- `_data/navigation.yml` — top navigation links
+- `_projects/` — project case studies (rendered at `/projects/`)
+- `assets/css/main.scss` — custom styling on top of the theme
+- `assets/resume.pdf` — downloadable resume
+- `index.md`, `about.md`, `contact.md` — main pages
 
-1. Update site settings in `_config.yml`:
-   - `url`
-   - `baseurl`
-   - `repository`
-2. Update your profile info in `_data/profile.yml`.
-3. Replace sample project files in `_projects/` with your own projects.
-4. Replace teaser images in `assets/img/`.
-5. Replace `assets/resume.pdf` with your current resume.
+## Local preview
 
-## Local preview (optional)
-
-If Ruby and Bundler are installed:
+Requires Ruby and Bundler:
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-Then open `http://127.0.0.1:4000`.
+Then open `http://127.0.0.1:4000/Davis-Spencer-Owen-Portfolio/`.
 
-## GitHub Pages deployment
+## Deployment
 
-- Push to the `main` branch.
-- The workflow in `.github/workflows/jekyll-gh-pages.yml` builds and deploys automatically.
-
-## Recommended next edits
-
-- Add a short hero photo and real project images.
-- Add links to publications, patents, or presentations.
-- Add a downloadable one-page project summary PDF for recruiters.
+Pushes to `main` are built and deployed automatically by `.github/workflows/jekyll-gh-pages.yml`.
