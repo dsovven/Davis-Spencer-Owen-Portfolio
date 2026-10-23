@@ -7,6 +7,9 @@ github: "https://github.com/dsovven"
 resume_file: "/assets/resume.pdf"
 clearance: "Security-clearance details available to verified employers"
 current_role: "Manufacturing Project Engineer II, General Atomics Electromagnetic Systems"
+current_role_short: "Manufacturing Project Engineer II at General Atomics EMS"
+headshot: "/assets/img/placeholders/headshot.svg" # Placeholder: replace with a professional headshot (square, 600px or larger)
+positioning: "Manufacturing engineer delivering first-time builds of regulated, high-reliability hardware."
 
 intro: >
   Solutions-driven Manufacturing Project Engineer with a track record leading first-time builds
@@ -22,15 +25,36 @@ summary: >
   work instructions, and fixture solutions that support high-reliability manufacturing under
   exacting standards.
 
-focus_areas:
-  - "Technical project management in high-reliability manufacturing"
-  - "Design for Manufacturing and Assembly (DFM/DFA)"
-  - "Precision machining: EDM, VTL, and 5-axis workflows"
-  - "Root cause and corrective action"
-  - "Process development, work instructions, and build strategy"
-  - "Supply chain coordination and bill of materials development"
-  - "Tooling and fixture design for tolerance control"
-  - "Nondestructive testing integration and validation readiness"
+lifecycle:
+  - "Proposal"
+  - "Design"
+  - "Procurement"
+  - "Machining"
+  - "Assembly"
+  - "NDT"
+  - "Validation"
+
+expertise_groups:
+  - name: "Program and Process"
+    items:
+      - "Technical project management in high-reliability manufacturing"
+      - "Process development, work instructions, and build strategy"
+      - "Supply chain coordination and bill of materials development"
+  - name: "Design and Tooling"
+    items:
+      - "Design for Manufacturing and Assembly (DFM/DFA)"
+      - "Tooling and fixture design for tolerance control"
+  - name: "Machining and Fabrication"
+    items:
+      - "Precision machining: EDM, VTL, and 5-axis workflows"
+  - name: "Quality and Validation"
+    items:
+      - "Root cause and corrective action"
+      - "Nondestructive testing integration and validation readiness"
+  - name: "Standards and Methods"
+    items:
+      - "GD&T per ASME Y14.5"
+      - "Lean Six Sigma Yellow Belt"
 
 impact_metrics:
   - "Promoted from Engineer I to Engineer II with expanded program leadership responsibility."

@@ -7,8 +7,8 @@ order: 5
 role: "Lab Research Assistant"
 timeline: "12 months"
 header:
-  teaser: /assets/img/project-pcb-vagus.svg
-image_alt: "A research hardware workflow linking sensing requirements, PCB design, component selection, and prototype procurement."
+  teaser: /assets/img/placeholders/photo-pcb-vagus.svg
+image_alt: "Placeholder for a project photo"
 tags:
   - R&D
   - PCB Design

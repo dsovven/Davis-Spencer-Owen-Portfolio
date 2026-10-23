@@ -7,8 +7,8 @@ order: 1
 role: "Manufacturing Project Engineer II"
 timeline: "Multi-year program"
 header:
-  teaser: /assets/img/project-high-reliability.svg
-image_alt: "A staged manufacturing flow from proposal and design through build, inspection, and validation."
+  teaser: /assets/img/placeholders/photo-high-reliability.svg
+image_alt: "Placeholder for a project photo"
 tags:
   - Program Leadership
   - High-Reliability Manufacturing

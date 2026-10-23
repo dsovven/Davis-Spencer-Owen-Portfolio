@@ -7,8 +7,8 @@ order: 2
 role: "Manufacturing Project Engineer"
 timeline: "Ongoing"
 header:
-  teaser: /assets/img/project-process-plan.svg
-image_alt: "A controlled assembly process connecting planning, standard work, quality checks, and continuous improvement."
+  teaser: /assets/img/placeholders/photo-process-plan.svg
+image_alt: "Placeholder for a project photo"
 tags:
   - Process Development
   - Standard Work

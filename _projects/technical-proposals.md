@@ -7,8 +7,8 @@ order: 3
 role: "Manufacturing Project Engineer"
 timeline: "Bid-cycle based"
 header:
-  teaser: /assets/img/project-proposal.svg
-image_alt: "A proposal workflow connecting requirements, manufacturing strategy, risk, cost, and delivery planning."
+  teaser: /assets/img/placeholders/photo-proposal.svg
+image_alt: "Placeholder for a project photo"
 tags:
   - Proposal Development
   - Cost and Risk Strategy

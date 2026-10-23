@@ -7,8 +7,8 @@ order: 4
 role: "Manufacturing Engineering Intern"
 timeline: "5 months"
 header:
-  teaser: /assets/img/project-gkn-nx.svg
-image_alt: "A CAD-to-fabrication workflow showing a digital model, drawing, and production instruction."
+  teaser: /assets/img/placeholders/photo-gkn-nx.svg
+image_alt: "Placeholder for a project photo"
 tags:
   - Siemens NX
   - CAD/CAM Documentation

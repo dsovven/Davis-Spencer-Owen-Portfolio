@@ -7,48 +7,34 @@ classes:
   - home-page
 ---
 
+{% assign profile = site.data.profile %}
 <section class="hero-card" aria-labelledby="home-heading">
-  <p class="eyebrow">Manufacturing Engineering Portfolio</p>
-  <h1 id="home-heading">{{ site.data.profile.name }}</h1>
-  <p class="lead">{{ site.data.profile.headline }}</p>
-  <p>{{ site.data.profile.intro }}</p>
-  <div class="hero-actions">
-    <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
-    <a class="btn btn--inverse" href="{{ '/about/' | relative_url }}">Professional Profile</a>
-    <a class="btn btn--light-outline" href="{{ site.data.profile.resume_file | relative_url }}">Download Resume</a>
+  <div class="hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Manufacturing Engineering Portfolio</p>
+      <h1 id="home-heading">{{ profile.name }}</h1>
+      <p class="lead">{{ profile.positioning }}</p>
+      <ul class="hero-facts">
+        <li>{{ profile.current_role_short }}</li>
+        <li>{{ profile.location }}</li>
+        <li>{{ profile.clearance }}</li>
+      </ul>
+      <div class="hero-actions">
+        <a class="btn btn--primary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+        <a class="btn btn--inverse" href="{{ '/about/' | relative_url }}">Professional Profile</a>
+        <a class="btn btn--light-outline" href="{{ profile.resume_file | relative_url }}">Download Resume</a>
+      </div>
+    </div>
+    <img class="hero-photo" src="{{ profile.headshot | relative_url }}" alt="Portrait of {{ profile.name }}" width="600" height="600">
   </div>
 </section>
 
-<div class="info-grid">
-  <div class="info-card">
-    <p class="info-card__label">Current Role</p>
-    <p>{{ site.data.profile.current_role }}</p>
-  </div>
-  <div class="info-card">
-    <p class="info-card__label">Location</p>
-    <p>{{ site.data.profile.location }}</p>
-  </div>
-  <div class="info-card">
-    <p class="info-card__label">Clearance</p>
-    <p>{{ site.data.profile.clearance }}</p>
-  </div>
-</div>
-
-## Core Expertise
-
-<div class="pill-grid">
-{% for item in site.data.profile.focus_areas %}
-  <span class="pill">{{ item }}</span>
-{% endfor %}
-</div>
-
-## Career Highlights
-
-<div class="metric-grid">
-{% for metric in site.data.profile.impact_metrics %}
-  <div class="metric-card">{{ metric }}</div>
-{% endfor %}
-</div>
+<section class="lifecycle" aria-labelledby="lifecycle-heading">
+  <h2 id="lifecycle-heading" class="lifecycle__title">End-to-end build ownership</h2>
+  <ol class="lifecycle__steps">
+    {% for step in profile.lifecycle %}<li><span class="lifecycle__num">{{ forloop.index }}</span>{{ step }}</li>{% endfor %}
+  </ol>
+</section>
 
 ## Featured Projects
 
@@ -61,3 +47,30 @@ classes:
 {% endif %}
 
 [Browse all projects]({{ '/projects/' | relative_url }})
+
+## Career Highlights
+
+<div class="metric-grid">
+{% for metric in profile.impact_metrics %}
+  <div class="metric-card">{{ metric }}</div>
+{% endfor %}
+</div>
+
+## Core Expertise
+
+<div class="expertise-grid">
+{% for group in profile.expertise_groups %}
+  <div class="expertise-card">
+    <h3>{{ group.name }}</h3>
+    <ul>
+      {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+  <div class="expertise-card">
+    <h3>Software and Systems</h3>
+    <ul>
+      {% for tool in profile.tools %}<li>{{ tool }}</li>{% endfor %}
+    </ul>
+  </div>
+</div>

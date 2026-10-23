@@ -1,3 +1,8 @@
+{% if page.header.teaser %}
+<figure class="project-hero">
+  <img src="{{ page.header.teaser | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" width="960" height="540">
+</figure>
+{% endif %}
 <div class="project-meta">
   {% if page.role %}<p class="project-meta__item"><strong>Role:</strong> {{ page.role }}</p>{% endif %}
   {% if page.timeline %}<p class="project-meta__item"><strong>Timeline:</strong> {{ page.timeline }}</p>{% endif %}

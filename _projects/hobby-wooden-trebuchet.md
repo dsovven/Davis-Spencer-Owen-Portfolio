@@ -7,8 +7,8 @@ order: 6
 role: "Personal Project"
 timeline: "3 weekends"
 header:
-  teaser: /assets/img/project-trebuchet.svg
-image_alt: "A tabletop wooden trebuchet with an adjustable sling, release pin, throwing arm, and counterweight."
+  teaser: /assets/img/placeholders/photo-trebuchet.svg
+image_alt: "Placeholder for a project photo"
 tags:
   - Woodworking
   - Mechanical Design
