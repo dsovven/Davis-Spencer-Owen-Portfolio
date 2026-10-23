@@ -9,6 +9,8 @@ timezone: "America/Los_Angeles"
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "air"
 og_image: "/assets/img/og-default.png" # PNG social preview; LinkedIn and most crawlers ignore SVG
+atom_feed:
+  hide: true # No blog posts; stops the theme linking to a feed.xml that is never generated
 
 author:
   name: "Davis Spencer Owen"
