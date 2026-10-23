@@ -2,12 +2,14 @@
 title: "Davis Spencer Owen | Manufacturing Engineering Portfolio"
 layout: single
 permalink: /
-classes: wide
+classes:
+  - wide
+  - home-page
 ---
 
-<div class="hero-card">
+<div class="hero-card" aria-labelledby="home-heading">
   <p class="eyebrow">Manufacturing Engineering Portfolio</p>
-  <h1>{{ site.data.profile.name }}</h1>
+  <h1 id="home-heading">{{ site.data.profile.name }}</h1>
   <p class="lead">{{ site.data.profile.headline }}</p>
   <p>{{ site.data.profile.intro }}</p>
   <div class="hero-actions">
@@ -52,36 +54,10 @@ classes: wide
 
 {% assign featured_projects = site.projects | where_exp: "project", "project.featured == true" | sort: "order" %}
 {% if featured_projects and featured_projects.size > 0 %}
-<div class="project-grid">
-{% for project in featured_projects limit: 4 %}
-  {% assign project_image = project.header.teaser | default: '/assets/img/project-submarine.svg' %}
-  <article class="project-card project-card--featured">
-    <a class="project-thumb-link" href="{{ project.url | relative_url }}">
-      <img class="project-thumb" src="{{ project_image | relative_url }}" alt="{{ project.title }} teaser image" loading="lazy">
-    </a>
-    <p class="project-kicker">{{ project.role }} | {{ project.timeline }}</p>
-    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-    <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
-    <p><a class="btn btn--small btn--primary" href="{{ project.url | relative_url }}">View Project</a></p>
-  </article>
-{% endfor %}
-</div>
+{% include project-grid.html projects=featured_projects heading_tag="h3" %}
 {% else %}
 {% assign fallback_projects = site.projects | sort: "date" | reverse %}
-<div class="project-grid">
-{% for project in fallback_projects limit: 4 %}
-  {% assign project_image = project.header.teaser | default: '/assets/img/project-submarine.svg' %}
-  <article class="project-card project-card--featured">
-    <a class="project-thumb-link" href="{{ project.url | relative_url }}">
-      <img class="project-thumb" src="{{ project_image | relative_url }}" alt="{{ project.title }} teaser image" loading="lazy">
-    </a>
-    <p class="project-kicker">{{ project.role }} | {{ project.timeline }}</p>
-    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-    <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
-    <p><a class="btn btn--small btn--primary" href="{{ project.url | relative_url }}">View Project</a></p>
-  </article>
-{% endfor %}
-</div>
+{% include project-grid.html projects=fallback_projects heading_tag="h3" %}
 {% endif %}
 
 [Browse all projects]({{ '/projects/' | relative_url }})

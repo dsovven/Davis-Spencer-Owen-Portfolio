@@ -23,7 +23,7 @@ html {
 
 .initial-content,
 body {
-  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  font-family: "Segoe UI Variable Text", "Aptos", "Segoe UI", sans-serif;
   color: var(--ink-900);
   background-color: #edf3f7 !important;
   background-image:
@@ -64,7 +64,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: "Segoe UI Variable Display", "Aptos Display", "Segoe UI", sans-serif;
   letter-spacing: -0.01em;
   color: var(--ink-900);
 }
@@ -97,6 +97,23 @@ a:focus {
 .hero-card .lead,
 .hero-card p {
   color: inherit;
+}
+
+.home-page .page__title {
+  display: none;
+}
+
+.hero-card .btn--primary {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #174663;
+}
+
+.hero-card .btn--primary:hover,
+.hero-card .btn--primary:focus {
+  background: #eaf4f8;
+  border-color: #eaf4f8;
+  color: #0b3f55;
 }
 
 .eyebrow {
@@ -228,18 +245,17 @@ a:focus {
   flex-direction: column;
 }
 
-.project-thumb-link {
-  display: block;
-  margin: -1rem -1.1rem 0.75rem;
-}
-
 .project-thumb {
-  width: 100%;
+  display: block;
+  width: calc(100% + 2.2rem);
   height: 170px;
   object-fit: cover;
+  margin: -1rem -1.1rem 0.75rem;
+  max-width: none;
   border-radius: 14px 14px 0 0;
   border-bottom: 1px solid var(--line-1);
 }
+.project-card h2,
 .project-card h3 {
   margin: 0.3rem 0 0.4rem;
   font-size: 1.05rem;
@@ -250,6 +266,17 @@ a:focus {
   font-weight: 600;
   font-size: 0.84rem;
   margin: 0;
+}
+
+.project-card__action {
+  margin-top: auto;
+  font-weight: 700;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #d47b32;
+  outline-offset: 3px;
 }
 
 .archive .grid__item .archive__item {
@@ -325,5 +352,18 @@ a:focus {
 
   .lead {
     font-size: 1.08rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .project-card:hover {
+    transform: none;
   }
 }

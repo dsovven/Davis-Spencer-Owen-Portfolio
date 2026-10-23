@@ -27,7 +27,7 @@ classes: wide
 - **{{ edu.school }}** - {{ edu.degree }} ({{ edu.graduation }}){% if edu.honors %}, {{ edu.honors }}{% endif %}
 {% endfor %}
 
-## Certifications
+## Credentials and Training
 
 {% for cert in site.data.profile.certifications %}
 - {{ cert }}

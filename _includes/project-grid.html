@@ -1,0 +1,21 @@
+{% assign project_items = include.projects %}
+{% assign heading_tag = include.heading_tag | default: "h2" %}
+<div class="project-grid">
+{% for project in project_items %}
+  {% assign project_image = project.header.teaser | default: '/assets/img/project-high-reliability.svg' %}
+  <article class="project-card project-card--featured">
+    <img
+      class="project-thumb"
+      src="{{ project_image | relative_url }}"
+      alt="{{ project.image_alt | default: project.title | escape }}"
+      width="960"
+      height="540"
+      loading="lazy">
+    <p class="project-kicker">{{ project.role }} <span aria-hidden="true">|</span> {{ project.timeline }}</p>
+    <{{ heading_tag }}><a href="{{ project.url | relative_url }}">{{ project.title }}</a></{{ heading_tag }}>
+    <p>{{ project.excerpt | strip_html | truncate: 150 }}</p>
+    <p class="project-card__action"><a href="{{ project.url | relative_url }}">View project <span aria-hidden="true">&rarr;</span></a></p>
+  </article>
+{% endfor %}
+</div>
+

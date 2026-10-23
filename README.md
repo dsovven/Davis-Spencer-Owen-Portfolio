@@ -15,15 +15,26 @@ Personal portfolio site for Davis Spencer Owen, Manufacturing Project Engineer I
 
 ## Local preview
 
-Requires Ruby and Bundler:
+Requires Ruby 3.3 and Bundler. The repository's `.ruby-version` and `Gemfile`
+are also used by CI so local previews match production builds.
 
 ```bash
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 Then open `http://127.0.0.1:4000/Davis-Spencer-Owen-Portfolio/`.
 
+## Validation
+
+Run the same production checks used by CI:
+
+```bash
+JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter --trace
+ruby scripts/check_internal_links.rb _site /Davis-Spencer-Owen-Portfolio
+```
+
 ## Deployment
 
 Pushes to `main` are built and deployed automatically by `.github/workflows/jekyll-gh-pages.yml`.
+Pull requests run the same production build plus an internal link and asset check without deploying.

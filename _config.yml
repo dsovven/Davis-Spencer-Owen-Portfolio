@@ -33,6 +33,14 @@ footer:
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+social:
+  name: "Davis Spencer Owen"
+  links:
+    - "https://www.linkedin.com/in/davis-spencer-owen"
+    - "https://github.com/dsovven"
 
 collections:
   projects:
@@ -62,5 +70,6 @@ defaults:
 
 exclude:
   - README.md
-
-
+  - scripts
+  - tmp
+  - vendor

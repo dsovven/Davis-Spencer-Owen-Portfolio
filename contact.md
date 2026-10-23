@@ -5,14 +5,15 @@ permalink: /contact/
 classes: wide
 ---
 
-Use this page for recruiter and collaborator outreach.
+For recruiter and engineering-collaboration outreach, email or LinkedIn are the best channels.
 
 - **Email:** [{{ site.data.profile.email }}](mailto:{{ site.data.profile.email }})
-- **Phone:** {{ site.data.profile.phone }}
 - **LinkedIn:** [{{ site.data.profile.linkedin }}]({{ site.data.profile.linkedin }})
 - **GitHub:** [{{ site.data.profile.github }}]({{ site.data.profile.github }})
 - **Location:** {{ site.data.profile.location }}
 
 ## Suggested Message Template
 
-If you are reaching out about a role, include product line, location, expected travel, and timeline.
+> Hi Davis — I’m reaching out about a **[role or collaboration]** involving **[product or technical area]**. The position is based in **[location/remote arrangement]**, with approximately **[travel expectation]**. Our target timeline is **[timeline]**. Would you be available for a conversation?
+
+Please avoid sending controlled, proprietary, or export-restricted technical information through this public contact channel.

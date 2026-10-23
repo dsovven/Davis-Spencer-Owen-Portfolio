@@ -8,6 +8,7 @@ role: "Personal Project"
 timeline: "3 weekends"
 header:
   teaser: /assets/img/project-trebuchet.svg
+image_alt: "A tabletop wooden trebuchet with an adjustable sling, release pin, throwing arm, and counterweight."
 tags:
   - Woodworking
   - Mechanical Design
@@ -37,6 +38,8 @@ This personal build demonstrates practical mechanical design thinking, fabricati
 - Tracked launch distance and consistency across pin-angle changes.
 - Increased stiffness with diagonal bracing and base reinforcement.
 - Adjusted sling knot position to improve release timing.
+
+The comparison held projectile and counterweight conditions fixed while changing release geometry. Results were compared using repeated launch-distance measurements; the result is useful as a design-iteration indicator rather than a formal statistical study.
 
 ## Demo Video
 
