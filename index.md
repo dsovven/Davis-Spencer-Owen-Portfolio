@@ -1,5 +1,5 @@
 ---
-title: "Davis Spencer Owen | Manufacturing Engineering Portfolio"
+title: "Home"
 layout: single
 permalink: /
 classes:
@@ -7,7 +7,7 @@ classes:
   - home-page
 ---
 
-<div class="hero-card" aria-labelledby="home-heading">
+<section class="hero-card" aria-labelledby="home-heading">
   <p class="eyebrow">Manufacturing Engineering Portfolio</p>
   <h1 id="home-heading">{{ site.data.profile.name }}</h1>
   <p class="lead">{{ site.data.profile.headline }}</p>
@@ -17,19 +17,19 @@ classes:
     <a class="btn btn--inverse" href="{{ '/about/' | relative_url }}">Professional Profile</a>
     <a class="btn btn--light-outline" href="{{ site.data.profile.resume_file | relative_url }}">Download Resume</a>
   </div>
-</div>
+</section>
 
 <div class="info-grid">
   <div class="info-card">
-    <h3>Current Role</h3>
+    <p class="info-card__label">Current Role</p>
     <p>{{ site.data.profile.current_role }}</p>
   </div>
   <div class="info-card">
-    <h3>Location</h3>
+    <p class="info-card__label">Location</p>
     <p>{{ site.data.profile.location }}</p>
   </div>
   <div class="info-card">
-    <h3>Clearance</h3>
+    <p class="info-card__label">Clearance</p>
     <p>{{ site.data.profile.clearance }}</p>
   </div>
 </div>
