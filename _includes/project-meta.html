@@ -1,0 +1,9 @@
+<div class="project-meta">
+  {% if page.role %}<p class="project-meta__item"><strong>Role:</strong> {{ page.role }}</p>{% endif %}
+  {% if page.timeline %}<p class="project-meta__item"><strong>Timeline:</strong> {{ page.timeline }}</p>{% endif %}
+  {% if page.tags and page.tags.size > 0 %}
+  <div class="pill-grid" aria-label="Skills">
+    {% for tag in page.tags %}<span class="pill">{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+</div>

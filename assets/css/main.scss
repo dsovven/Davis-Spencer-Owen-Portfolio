@@ -27,25 +27,21 @@ body {
   color: var(--ink-900);
   background-color: #edf3f7 !important;
   background-image:
-    linear-gradient(rgba(60, 86, 112, 0.14) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(60, 86, 112, 0.14) 1px, transparent 1px),
-    repeating-linear-gradient(135deg, rgba(15, 94, 93, 0.06) 0 18px, rgba(15, 94, 93, 0) 18px 42px),
+    linear-gradient(rgba(60, 86, 112, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(60, 86, 112, 0.07) 1px, transparent 1px),
     radial-gradient(1400px 680px at -10% -12%, rgba(42, 94, 134, 0.12), transparent 56%),
     radial-gradient(1000px 560px at 112% 2%, rgba(15, 94, 93, 0.1), transparent 54%) !important;
   background-size:
     46px 46px,
     46px 46px,
-    180px 180px,
     auto,
     auto !important;
   background-position:
     0 0,
     0 0,
-    0 0,
     center top,
     center top !important;
   background-attachment:
-    fixed,
     fixed,
     fixed,
     scroll,
@@ -82,6 +78,89 @@ a:focus {
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(80, 101, 126, 0.2);
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav .site-title {
+  color: var(--ink-900);
+}
+
+.greedy-nav .visible-links a {
+  color: var(--ink-700);
+  font-weight: 500;
+}
+
+.greedy-nav .visible-links a:before {
+  background: var(--accent-teal);
+}
+
+/* Use the full column: no page in this site has a sidebar */
+.masthead__inner-wrap,
+#main {
+  max-width: 1120px;
+}
+
+@media (min-width: 1024px) {
+  .layout--single .page {
+    float: none;
+    width: 100%;
+    padding-inline-end: 0;
+  }
+}
+
+/* Long-form pages sit on a solid card for readability */
+.article-page .page__inner-wrap {
+  background: var(--surface-0);
+  border: 1px solid var(--line-1);
+  border-radius: 18px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 12px 32px rgba(19, 34, 56, 0.08);
+}
+
+.article-page .page__content h2 {
+  border-bottom: 0;
+  padding-left: 0.8rem;
+  border-left: 4px solid var(--accent-teal);
+  margin-top: 2rem;
+}
+
+.article-page .page__content h3 {
+  margin-top: 1.6rem;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.2rem;
+  padding: 0.85rem 1rem;
+  margin: 0 0 1.5rem;
+  background: var(--surface-1);
+  border: 1px solid var(--line-1);
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.project-meta .project-meta__item {
+  margin: 0;
+  color: var(--ink-700);
+}
+
+.project-meta .project-meta__item strong {
+  color: var(--ink-900);
+}
+
+.project-meta .pill-grid {
+  margin: 0;
+  gap: 0.4rem;
+}
+
+.project-meta .pill {
+  font-size: 0.78rem;
+  padding: 0.22rem 0.65rem;
 }
 
 .hero-card {
@@ -218,9 +297,20 @@ a:focus {
 .metric-grid,
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 0.9rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
   margin: 1rem 0 2rem;
+}
+
+@media (min-width: 768px) {
+  .metric-grid,
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.metric-card {
+  font-weight: 500;
 }
 
 .metric-card,
@@ -262,7 +352,8 @@ a:focus {
 .project-thumb {
   display: block;
   width: calc(100% + 2.2rem);
-  height: 170px;
+  height: auto;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   margin: -1rem -1.1rem 0.75rem;
   max-width: none;
@@ -271,20 +362,47 @@ a:focus {
 }
 .project-card h2,
 .project-card h3 {
-  margin: 0.3rem 0 0.4rem;
-  font-size: 1.05rem;
+  margin: 0.35rem 0 0.5rem;
+  font-size: 1.12rem;
+  line-height: 1.3;
+  border-bottom: 0;
+}
+
+.project-card h2 a,
+.project-card h3 a {
+  color: var(--ink-900);
+  text-decoration: none;
+}
+
+.project-card h2 a:hover,
+.project-card h3 a:hover,
+.project-card h2 a:focus,
+.project-card h3 a:focus {
+  color: var(--accent-teal);
+  text-decoration: underline;
+}
+
+.project-card > p:not(.project-kicker):not(.project-card__action) {
+  font-size: 0.92rem;
+  color: var(--ink-700);
 }
 
 .project-kicker {
-  color: var(--ink-700);
+  color: var(--accent-teal);
   font-weight: 600;
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   margin: 0;
 }
 
 .project-card__action {
   margin-top: auto;
+  margin-bottom: 0;
   font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.project-card__action a {
+  text-decoration: none;
 }
 
 a:focus-visible,
@@ -349,11 +467,9 @@ button:focus-visible {
     background-size:
       38px 38px,
       38px 38px,
-      150px 150px,
       auto,
       auto !important;
     background-attachment:
-      scroll,
       scroll,
       scroll,
       scroll,
@@ -362,6 +478,10 @@ button:focus-visible {
 
   .hero-card {
     padding: 1.4rem;
+  }
+
+  .article-page .page__inner-wrap {
+    padding: 1.25rem 1.1rem;
   }
 
   .lead {

@@ -15,6 +15,8 @@ tags:
   - Customer Communication
 ---
 
+{% include project-meta.html %}
+
 ## Challenge
 
 New business opportunities required technically credible proposals with clear manufacturing strategy, risk posture, and execution planning.

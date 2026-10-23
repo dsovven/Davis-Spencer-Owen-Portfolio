@@ -15,6 +15,8 @@ tags:
   - Aerospace Manufacturing
 ---
 
+{% include project-meta.html %}
+
 ## Challenge
 
 Fabrication teams required clear, production-ready digital definitions and instructions for advanced metal components.

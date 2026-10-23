@@ -15,6 +15,8 @@ tags:
   - NDT and Validation
 ---
 
+{% include project-meta.html %}
+
 ## Challenge
 
 The program required first-time build success for complex, high-reliability assemblies under strict customer, quality, and traceability requirements.

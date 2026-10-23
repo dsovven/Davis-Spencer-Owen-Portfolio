@@ -15,6 +15,8 @@ tags:
   - Continuous Improvement
 ---
 
+{% include project-meta.html %}
+
 ## Challenge
 
 High component count and variable build conditions increased risk of defects, missed steps, and inconsistent assembly outcomes.

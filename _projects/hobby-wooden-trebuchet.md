@@ -15,6 +15,8 @@ tags:
   - Testing
 ---
 
+{% include project-meta.html %}
+
 ## Project Overview
 
 This personal build demonstrates practical mechanical design thinking, fabrication discipline, and test-driven iteration on a small, low-risk platform.

@@ -15,6 +15,8 @@ tags:
   - Procurement
 ---
 
+{% include project-meta.html %}
+
 ## Challenge
 
 Research objective required an integrated sensing/stimulation PCB platform for Type II Diabetes work, combining hardware design and procurement constraints.

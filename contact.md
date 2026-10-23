@@ -2,7 +2,9 @@
 title: "Contact"
 layout: single
 permalink: /contact/
-classes: wide
+classes:
+  - wide
+  - article-page
 ---
 
 For recruiter and engineering-collaboration outreach, email or LinkedIn are the best channels.

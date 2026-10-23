@@ -2,7 +2,9 @@
 title: "About"
 layout: single
 permalink: /about/
-classes: wide
+classes:
+  - wide
+  - article-page
 ---
 
 ## Professional Summary
